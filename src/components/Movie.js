@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
+import "./Movie.css";
 function Movie({id,coverImg,title,summary,genres}){
   return  (
     <div>
